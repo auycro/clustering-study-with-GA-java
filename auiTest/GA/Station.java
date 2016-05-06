@@ -1,5 +1,7 @@
-package auiTest.GA;
+//Copyright (c) 2016 Gumpanat Keardkeawfa
+//Licensed under the MIT license
 
+package auiTest.GA;
 
 public class Station {
 	private int number;
