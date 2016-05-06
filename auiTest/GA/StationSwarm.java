@@ -1,3 +1,6 @@
+//Copyright (c) 2016 Gumpanat Keardkeawfa
+//Licensed under the MIT license
+
 package auiTest.GA;
 
 import java.io.BufferedReader;
@@ -109,7 +112,6 @@ public class StationSwarm {
 						
 					}
 				}
-				
 	
 				for(int k=0;k<P1;k++){
 					
