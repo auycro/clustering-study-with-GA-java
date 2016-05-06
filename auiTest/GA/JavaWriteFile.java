@@ -1,3 +1,6 @@
+//Copyright (c) 2016 Gumpanat Keardkeawfa
+//Licensed under the MIT license
+
 package auiTest.GA;
 
 import java.io.BufferedWriter;
@@ -13,7 +16,6 @@ class JavaWriteFile {
 			for(int i=0;i<a.size();i++){
 				out.write(a.get(i)+","+b.get(i)+","+c.get(i)+"\n");
 			}
-			
 			
 			//Close the output stream
 			out.close();
