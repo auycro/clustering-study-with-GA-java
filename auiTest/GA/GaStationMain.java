@@ -1,7 +1,9 @@
+//Copyright (c) 2012 Gumpanat Keardkeawfa
+//Licensed under the MIT license
+
 package auiTest.GA;
 
 import java.util.ArrayList;
-
 
 public class GaStationMain {
 	public static int ParticleSize = 100;
@@ -61,7 +63,6 @@ public class GaStationMain {
 		ObjList3.add(infeasibilityNumber[0]);
 		
 		//add initial state
-		
 		
 		stationFactory.SortByFitnessValue(ParticleSize, particleReplaceStation[0], chargeStationList[0], objValue[0]);
 		
@@ -134,8 +135,6 @@ public class GaStationMain {
 				}
 			}
 			
-			
-			
 			runtime = System.currentTimeMillis() - startTime;
 			
 			int divide = i%ShowRate;
@@ -166,7 +165,6 @@ public class GaStationMain {
 					System.out.println("cant find good solution");
 				}
 			}
-			
 			
 			//write file
 			ObjList1.add(i);
