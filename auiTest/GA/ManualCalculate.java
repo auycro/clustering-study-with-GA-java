@@ -1,3 +1,6 @@
+//Copyright (c) 2016 Gumpanat Keardkeawfa
+//Licensed under the MIT license
+
 package auiTest.GA;
 
 import java.io.BufferedReader;
@@ -9,9 +12,6 @@ public class ManualCalculate {
 	public static double maxEletric = 7000;
 	public static String dataFile = "StationData22.csv";
 	public static String orderFile = "StationOrder22.txt";
-	
-	
-	
 	
 	public static void main(String[] args) throws Exception {
 		StationSwarm stationFactory = new StationSwarm();
@@ -119,7 +119,7 @@ public class ManualCalculate {
 				tempList.add(tempStation);
 				
 				dataRow = CSVFile.readLine(); // Read next line of data.  
-			
+				
 			} 
 		}
 		
